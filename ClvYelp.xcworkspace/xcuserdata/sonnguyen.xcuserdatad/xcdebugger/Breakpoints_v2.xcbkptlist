@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DE68AEEE-2243-4DA0-88CC-DE0044361188"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C60A5BB3-109F-4CA4-A164-C004DA1EBCF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "libCDYelpFusionKit/Source/CDYelpAPIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "searchBusinesses(byTerm:location:latitude:longitude:radius:categories:locale:limit:offset:sortBy:priceTiers:openNow:openAt:attributes:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C60A5BB3-109F-4CA4-A164-C004DA1EBCF0 - fed19a7bb37c3809"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CDYelpFusionKit.CDYelpAPIClient.searchBusinesses(byTerm: Swift.Optional&lt;Swift.String&gt;, location: Swift.Optional&lt;Swift.String&gt;, latitude: Swift.Optional&lt;Swift.Double&gt;, longitude: Swift.Optional&lt;Swift.Double&gt;, radius: Swift.Optional&lt;Swift.Int&gt;, categories: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpCategoryAlias&gt;&gt;, locale: Swift.Optional&lt;CDYelpFusionKit.CDYelpLocale&gt;, limit: Swift.Optional&lt;Swift.Int&gt;, offset: Swift.Optional&lt;Swift.Int&gt;, sortBy: Swift.Optional&lt;CDYelpFusionKit.CDYelpBusinessSortType&gt;, priceTiers: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpPriceTier&gt;&gt;, openNow: Swift.Optional&lt;Swift.Bool&gt;, openAt: Swift.Optional&lt;Swift.Int&gt;, attributes: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpAttributeFilter&gt;&gt;, completion: (Swift.Optional&lt;CDYelpFusionKit.CDYelpSearchResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CDYelpFusionKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sonnguyen/Downloads/ClvYelp1001/ClvYelp/libCDYelpFusionKit/Source/CDYelpAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "2638">
+               </Location>
+               <Location
+                  uuid = "C60A5BB3-109F-4CA4-A164-C004DA1EBCF0 - 5c09bb445507e9e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;CDYelpFusionKit.CDYelpSearchResponse, Alamofire.AFError&gt;) -&gt; () in CDYelpFusionKit.CDYelpAPIClient.searchBusinesses(byTerm: Swift.Optional&lt;Swift.String&gt;, location: Swift.Optional&lt;Swift.String&gt;, latitude: Swift.Optional&lt;Swift.Double&gt;, longitude: Swift.Optional&lt;Swift.Double&gt;, radius: Swift.Optional&lt;Swift.Int&gt;, categories: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpCategoryAlias&gt;&gt;, locale: Swift.Optional&lt;CDYelpFusionKit.CDYelpLocale&gt;, limit: Swift.Optional&lt;Swift.Int&gt;, offset: Swift.Optional&lt;Swift.Int&gt;, sortBy: Swift.Optional&lt;CDYelpFusionKit.CDYelpBusinessSortType&gt;, priceTiers: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpPriceTier&gt;&gt;, openNow: Swift.Optional&lt;Swift.Bool&gt;, openAt: Swift.Optional&lt;Swift.Int&gt;, attributes: Swift.Optional&lt;Swift.Array&lt;CDYelpFusionKit.CDYelpAttributeFilter&gt;&gt;, completion: (Swift.Optional&lt;CDYelpFusionKit.CDYelpSearchResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CDYelpFusionKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sonnguyen/Downloads/ClvYelp1001/ClvYelp/libCDYelpFusionKit/Source/CDYelpAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FE43DBD-CE3E-457C-999C-0F0567A2E393"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "libCDYelpFusionKit/Source/CDYelpAPIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "searchBusinesses(byTerm:location:latitude:longitude:radius:categories:locale:limit:offset:sortBy:priceTiers:openNow:openAt:attributes:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C822085B-6694-41B7-B1F6-4348B793EA93"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchRestaurants(totalcount:searchterm:city:gpslat:gpslong:gpsradius:opennow:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "724EDBBA-C77E-4796-A815-0D930A0BC98A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ClvCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F48D7BBF-C686-4754-A6B7-D6FB58D4BD63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ClvCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A8084C3-703E-42FC-9BDA-827B47B40855"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ClvCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "customUIView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08CCF768-3275-46E5-AEA9-8AF747982D29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchRestaurants(totalcount:searchterm:city:gpslat:gpslong:gpsradius:opennow:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "220FA02D-72FD-443D-B11A-54A5502BEDC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchRestaurants(totalcount:searchterm:city:gpslat:gpslong:gpsradius:opennow:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7820F7C-CC25-4CA8-9750-646354006D9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchRestaurantViewModels(totalcount:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C8830CE-A775-4002-8080-2CB49A8573D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchRestaurantViewModels(totalcount:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08403058-2E54-42FB-AA75-D8AA4B7BE69A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C46EE4D-0C45-4A16-9410-3147019955B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54DB189D-E431-4F96-B449-E11629F02195"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/RestaurantsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(restaurantSrv:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0588E6CF-BEF6-4EDA-91C7-604F6F1C6575"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16ACAFB5-BA0C-4ACC-9A66-07228751C827"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22E4EB4B-9EA5-4200-914F-3538ADCECF96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C161799-EA03-4607-BA2A-B773352867D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClvYelp/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

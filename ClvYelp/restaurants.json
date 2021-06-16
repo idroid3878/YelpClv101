@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Blue Legume",
+        "cuisine": "123 King St West"
+    },
+    {
+        "name": "ABC Dumplings",
+        "cuisine": "456 Queen St West"
+    },
+    {
+        "name": "Le Mercury",
+        "cuisine": "222 Spencer St West"
+    },
+    {
+        "name": "The Grand Brassierie",
+        "cuisine": "777 Prince Arthur Ave"
+    },
+    {
+        "name": "Wahaca",
+        "cuisine": "333 Gowan Cr"
+    },
+    {
+        "name": "The Islington",
+        "cuisine": "999 Lawrence Ave E"
+    }
+]
