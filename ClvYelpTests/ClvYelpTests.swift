@@ -108,7 +108,7 @@ class ClvYelpTests: XCTestCase {
             if let error = error {
                 XCTFail("waitForExpectationsWithTimeout errored: \(error)")
             }
-            XCTAssertEqual(counted_record_downloaded, 100)
+            XCTAssertEqual(counted_record_downloaded, 10)
         }
     }
 }
