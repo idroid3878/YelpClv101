@@ -15,10 +15,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     private var viewModel: RestaurantsListViewModel!
     
-    public var dictRestaurantList = [String: YelpRestaurant]()
-    public var sortedRestaurantListAsc = [YelpRestaurant]()
-    public var sortedRestaurantListDesc = [YelpRestaurant]()
-    public var sortedRestaurantListCURRENT = [YelpRestaurant]()
+    public var dictRestaurantList = [String: RestaurantViewModel]()
+    public var sortedRestaurantListAsc = [RestaurantViewModel]()
+    public var sortedRestaurantListDesc = [RestaurantViewModel]()
+    public var sortedRestaurantListCURRENT = [RestaurantViewModel]()
     
     static func instantiate(viewModel: RestaurantsListViewModel) -> ViewController {
         let storyboard = UIStoryboard( name: "Main", bundle:.main)
