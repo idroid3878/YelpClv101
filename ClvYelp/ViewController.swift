@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet weak var gridCollectionView: UICollectionView!
+    @IBOutlet weak var AscendDescend: UIButton!
     
     private var viewModel: RestaurantsListViewModel!
     
     public var dictRestaurantList = [String: YelpRestaurant]()
     public var sortedRestaurantListAsc = [YelpRestaurant]()
     public var sortedRestaurantListDesc = [YelpRestaurant]()
+    public var sortedRestaurantListCURRENT = [YelpRestaurant]()
     
     static func instantiate(viewModel: RestaurantsListViewModel) -> ViewController {
         let storyboard = UIStoryboard( name: "Main", bundle:.main)
@@ -25,9 +27,26 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return viewController
     }
     
+    @IBAction func AscendDescendToggle(_ sender: Any) {
+        print("AscendDescendToggle")
+        if let buttonTitle = (sender as AnyObject).title(for: .normal) {
+            if buttonTitle == "ASC" {
+                    self.sortedRestaurantListCURRENT = self.sortedRestaurantListDesc
+                    self.AscendDescend.setTitle("DESC", for: .normal)
+            }
+            else {
+                    self.sortedRestaurantListCURRENT = self.sortedRestaurantListAsc
+                    self.AscendDescend.setTitle("ASC", for: .normal)
+            }
+        }
+        DispatchQueue.main.async {
+            self.gridCollectionView.reloadData()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         viewModel.fetchRestaurantViewModels(totalcount: 10,completion: {(restaurantlist) ->Void in
             let statuscode = restaurantlist.result
                 if statuscode == true {
@@ -47,8 +66,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                     for (_,thevalue) in self.dictRestaurantList.sorted { $0.key.localizedCompare($1.key) == .orderedDescending  } {
                         self.sortedRestaurantListDesc.append(thevalue)
                     }
-
+                    
                     DispatchQueue.main.async {
+                        self.sortedRestaurantListCURRENT = self.sortedRestaurantListAsc
+                        self.AscendDescend.setTitle("ASC", for: .normal)
                         self.gridCollectionView.reloadData()
                     }
                 }
@@ -83,13 +104,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         //cell.backgroundColor = .randomColor() // debug cells
         //cell.thedesc?.translatesAutoresizingMaskIntoConstraints = false
 
-        if let name=self.sortedRestaurantListAsc[indexPath.row].name {
+        if let name=self.sortedRestaurantListCURRENT[indexPath.row].name {
             cell.restname?.text = name
         }
         else {
             cell.restname?.text = ""
         }
-        if let addr=self.sortedRestaurantListAsc[indexPath.row].address {
+        if let addr=self.sortedRestaurantListCURRENT[indexPath.row].address {
             cell.addr?.text = addr.joined(separator: " ")
         }
         else {
@@ -107,17 +128,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detail_view_controller") as! DetailViewController
         
-        detailViewController.review = self.sortedRestaurantListAsc[indexPath.row].review
-            //targetController.data = "Restarant !"
+        detailViewController.review = self.sortedRestaurantListCURRENT[indexPath.row].review
         detailViewController.imageurl = self.sortedRestaurantListAsc[indexPath.row].imageurl ?? ""
-        detailViewController.name = self.sortedRestaurantListAsc[indexPath.row].name ?? ""
-        detailViewController.address = self.sortedRestaurantListAsc[indexPath.row].address ?? []
+        detailViewController.name = self.sortedRestaurantListCURRENT[indexPath.row].name ?? ""
+        detailViewController.address = self.sortedRestaurantListCURRENT[indexPath.row].address ?? []
 
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
 //        if segue.identifier == "sq_show_details" {
 //            if let destVC = segue.destination as? UINavigationController,
 //                let targetController = destVC.topViewController as? DetailViewController {
@@ -126,8 +145,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //                targetController.review = 123
 //            }
 //        }
-        
-
     }
     
     private func setUpCollectionView() {
