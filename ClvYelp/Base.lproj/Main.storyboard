@@ -20,6 +20,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2R-ae-Jdj" userLabel="view1">
                                 <rect key="frame" x="0.0" y="10" width="414" height="286"/>
                                 <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Im9-ry-Qtd" userLabel="searchbox">
+                                        <rect key="frame" x="10" y="231" width="329" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="8LW-l1-tSp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyi-7r-PiT" userLabel="btview">
                                         <rect key="frame" x="354" y="226" width="50" height="50"/>
                                         <subviews>
@@ -33,19 +41,22 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="m1q-gy-6yY" firstAttribute="trailing" secondItem="iyi-7r-PiT" secondAttribute="trailing" id="2JP-W4-srv"/>
-                                            <constraint firstAttribute="height" constant="50" id="9Rj-Ws-IRu"/>
+                                            <constraint firstItem="m1q-gy-6yY" firstAttribute="leading" secondItem="iyi-7r-PiT" secondAttribute="leading" id="F5v-fV-IJK"/>
                                             <constraint firstItem="m1q-gy-6yY" firstAttribute="bottom" secondItem="iyi-7r-PiT" secondAttribute="bottom" id="Jw0-ZM-Wfs"/>
-                                            <constraint firstItem="m1q-gy-6yY" firstAttribute="leading" secondItem="iyi-7r-PiT" secondAttribute="leading" id="ZbM-YL-Ff4"/>
-                                            <constraint firstAttribute="width" constant="50" id="drL-K7-6Ek"/>
+                                            <constraint firstAttribute="trailing" secondItem="m1q-gy-6yY" secondAttribute="trailing" id="TTn-us-8x0"/>
+                                            <constraint firstAttribute="width" constant="50" id="Zgp-7j-tnm"/>
+                                            <constraint firstAttribute="height" constant="50" id="dAY-k4-qxo"/>
                                             <constraint firstItem="m1q-gy-6yY" firstAttribute="top" secondItem="iyi-7r-PiT" secondAttribute="top" id="yEs-Qs-9Oy"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Im9-ry-Qtd" firstAttribute="leading" secondItem="l2R-ae-Jdj" secondAttribute="leading" constant="10" id="4NO-mi-ImE"/>
                                     <constraint firstItem="iyi-7r-PiT" firstAttribute="bottom" secondItem="l2R-ae-Jdj" secondAttribute="bottom" constant="-10" id="77g-3i-5io"/>
-                                    <constraint firstAttribute="trailing" secondItem="iyi-7r-PiT" secondAttribute="trailing" constant="10" id="LQN-P4-xn6"/>
+                                    <constraint firstItem="Im9-ry-Qtd" firstAttribute="bottom" secondItem="l2R-ae-Jdj" secondAttribute="bottom" constant="-10" id="LPB-cl-wil"/>
+                                    <constraint firstItem="iyi-7r-PiT" firstAttribute="trailing" secondItem="l2R-ae-Jdj" secondAttribute="trailing" constant="-10" id="LQN-P4-xn6"/>
+                                    <constraint firstItem="Im9-ry-Qtd" firstAttribute="trailing" secondItem="iyi-7r-PiT" secondAttribute="leading" constant="-15" id="Q1Z-7h-D7L"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPl-qE-86l" userLabel="view2">
