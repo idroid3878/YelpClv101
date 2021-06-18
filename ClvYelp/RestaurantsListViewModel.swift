@@ -17,6 +17,7 @@ final class RestaurantsListViewModel {
     init( restaurantSrv: RestaurantServiceProtocol = RestaurantService()) {
       self.restaurant_Service = restaurantSrv
     }
+    
     //init() {
     //    self.restaurant_Service = RestaurantService()
     //}
@@ -27,10 +28,10 @@ final class RestaurantsListViewModel {
     //        }}
     //}
 
-    func fetchRestaurantViewModels(totalcount:Int, completion: @escaping (YelpRst) -> ()) {
-        var restaurantArray = [YelpRestaurant?]()
-        var restaurantObj:YelpRst
-        restaurantObj=YelpRst(restaurantArray: restaurantArray, result: false)
+    func fetchRestaurantViewModels(totalcount:Int, completion: @escaping (YelpRetrievedList) -> ()) {
+        var restaurantVMArray = [RestaurantViewModel?]()
+        var restaurantVMObj: YelpRetrievedList
+        restaurantVMObj=YelpRetrievedList(restaurantArray: restaurantVMArray, result: false)
         
         let _: ()=restaurant_Service.fetchRestaurants(totalcount: 10,
                                                       searchterm: "Food",
@@ -43,13 +44,15 @@ final class RestaurantsListViewModel {
                 
             let statuscode = restaurantlist.result
             if statuscode == true { // Got data from Yelp!
-                let restarray = restaurantlist.restaurantArray
-                restaurantObj=YelpRst(restaurantArray: restarray, result: true)
-                completion(restaurantObj)
+                for item in restaurantlist.restaurantArray {
+                    restaurantVMArray.append( RestaurantViewModel(restaurant: item!))
+                }
+                restaurantVMObj=YelpRetrievedList(restaurantArray: restaurantVMArray, result: true)
+                completion(restaurantVMObj)
             }
             else {
-                restaurantObj=YelpRst(restaurantArray: [], result: false) // Got no data from Yelp!
-                completion(restaurantObj)
+                restaurantVMObj=YelpRetrievedList(restaurantArray: [], result: false)
+                completion(restaurantVMObj)
             }
         })
     }
