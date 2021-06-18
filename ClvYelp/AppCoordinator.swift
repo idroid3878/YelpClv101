@@ -23,6 +23,7 @@ class AppCoordinator {
         let rlvm=RestaurantsListViewModel()
         let viewController = ViewController.instantiate(viewModel: rlvm)
         let navigationController = UINavigationController(rootViewController: viewController)
+        navigationController.navigationBar.isTranslucent=false
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
