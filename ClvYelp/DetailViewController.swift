@@ -19,10 +19,9 @@ class DetailViewController: UIViewController {
     @IBOutlet var imageurlol: UIImageView?
     @IBOutlet weak var addressol: UITextView!
     @IBOutlet var nameol: UILabel?
-    @IBOutlet weak var addrsol: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(imageurl)")
+        //print("\(imageurl)")
         
         reviewol?.text = "REVIEW: " + String(review)
         nameol?.text = "NAME: " + name
