@@ -43,9 +43,34 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             self.gridCollectionView.reloadData()
         }
     }
+    //@objc func myRightSideBarButtonItemTapped(_ sender: UIBarButtonItem!)
+    @objc func myRightSideBarButtonItemTapped(_ sender: UIBarButtonItem!)
+    {
+        print("myRightSideBarButtonItemTapped")
+       // self.performSegue(withIdentifier: "sq_show_config", sender: self)
+        let configViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "config_view_controller") as! ConfigViewController
+
+         self.navigationController?.pushViewController(configViewController, animated: true)
+    }
+    
+    func setNavBarSetupButton() {
+        navigationController?.navigationBar.barTintColor = UIColor.init(red: 252/255, green: 169/255, blue: 3/255, alpha: 1.0)//UIColor.init(rgb: 0xFC6016)
+        navigationController?.navigationBar.tintColor = UIColor.black
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
+        let barbt: UIButton = UIButton(type: UIButton.ButtonType.custom)
+        barbt.setImage(UIImage(named: "rightbarbutton"), for: UIControl.State.normal)
+        barbt.addTarget(self, action: #selector(myRightSideBarButtonItemTapped), for: UIControl.Event.touchUpInside)
+        let rightbarbt = UIBarButtonItem(customView: barbt)
+        navigationController?.navigationBar.topItem?.title = "Yelp!"
+        //navigationItem.title = "YelpFilter"
+        
+        navigationItem.rightBarButtonItem = rightbarbt
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setNavBarSetupButton()
         
         viewModel.fetchRestaurantViewModels(totalcount: 10,completion: {(restaurantlist) ->Void in
             let statuscode = restaurantlist.result
