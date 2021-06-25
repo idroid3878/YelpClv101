@@ -13,9 +13,6 @@
 		0281F0712677325600A8D0B5 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0281F06F2677325600A8D0B5 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5F09D2EA1F282938001877E9 /* CDYelpEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09D2E91F282938001877E9 /* CDYelpEnums.swift */; };
 		5F6BC9D524FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BC9D424FBF71100EC41A7 /* Alamofire+ObjectMapper.swift */; };
-		5F6BC9D624FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BC9D424FBF71100EC41A7 /* Alamofire+ObjectMapper.swift */; };
-		5F6BC9D724FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BC9D424FBF71100EC41A7 /* Alamofire+ObjectMapper.swift */; };
-		5F6BC9D824FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BC9D424FBF71100EC41A7 /* Alamofire+ObjectMapper.swift */; };
 		5F854DFE1FB44B0F00335D73 /* CDColor+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854DFD1FB44B0F00335D73 /* CDColor+CDYelpFusionKit.swift */; };
 		5F854E071FB44B1F00335D73 /* CDImage+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854E061FB44B1F00335D73 /* CDImage+CDYelpFusionKit.swift */; };
 		5F854E1C1FB44D6A00335D73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F854E1B1FB44D6A00335D73 /* Images.xcassets */; };
@@ -43,110 +40,11 @@
 		5FDB32991FAACE8E00A9CF71 /* CDYelpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32981FAACE8E00A9CF71 /* CDYelpEvent.swift */; };
 		5FDB32A21FAACF4100A9CF71 /* CDYelpEventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32A11FAACF4100A9CF71 /* CDYelpEventsResponse.swift */; };
 		B266344D1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266344C1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift */; };
-		B266344E1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266344C1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift */; };
-		B266344F1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266344C1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift */; };
-		B26634501FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266344C1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift */; };
 		B267ED56233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED55233EAD3C007B902A /* CDYelpCategoriesResponse.swift */; };
-		B267ED57233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED55233EAD3C007B902A /* CDYelpCategoriesResponse.swift */; };
-		B267ED58233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED55233EAD3C007B902A /* CDYelpCategoriesResponse.swift */; };
-		B267ED59233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED55233EAD3C007B902A /* CDYelpCategoriesResponse.swift */; };
 		B267ED5B233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED5A233EADAB007B902A /* CDYelpCategoryResponse.swift */; };
-		B267ED5C233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED5A233EADAB007B902A /* CDYelpCategoryResponse.swift */; };
-		B267ED5D233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED5A233EADAB007B902A /* CDYelpCategoryResponse.swift */; };
-		B267ED5E233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267ED5A233EADAB007B902A /* CDYelpCategoryResponse.swift */; };
-		B285D9F81FBD356E00FA9ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F854E1B1FB44D6A00335D73 /* Images.xcassets */; };
-		B285D9F91FBD357800FA9ABB /* CDYelpFusionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBF0E961EC000B1004C1F6B /* CDYelpFusionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B285D9FA1FBD359400FA9ABB /* CDYelpFusionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBF0E961EC000B1004C1F6B /* CDYelpFusionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B285D9FB1FBD35C100FA9ABB /* Parameters+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA51EC000B1004C1F6B /* Parameters+CDYelpFusionKit.swift */; };
-		B285D9FC1FBD35C100FA9ABB /* CDColor+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854DFD1FB44B0F00335D73 /* CDColor+CDYelpFusionKit.swift */; };
-		B285D9FD1FBD35C100FA9ABB /* CDImage+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854E061FB44B1F00335D73 /* CDImage+CDYelpFusionKit.swift */; };
-		B285D9FE1FBD35C100FA9ABB /* CDYelpAutoCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8E1EC000B1004C1F6B /* CDYelpAutoCompleteResponse.swift */; };
-		B285D9FF1FBD35C100FA9ABB /* CDYelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8F1EC000B1004C1F6B /* CDYelpBusiness.swift */; };
-		B285DA001FBD35C100FA9ABB /* CDYelpBusinessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E901EC000B1004C1F6B /* CDYelpBusinessResponse.swift */; };
-		B285DA011FBD35C100FA9ABB /* CDYelpCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E911EC000B1004C1F6B /* CDYelpCategory.swift */; };
-		B285DA021FBD35C100FA9ABB /* CDYelpCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E921EC000B1004C1F6B /* CDYelpCenter.swift */; };
-		B285DA031FBD35C100FA9ABB /* CDYelpCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E941EC000B1004C1F6B /* CDYelpCoordinates.swift */; };
-		B285DA041FBD35C100FA9ABB /* CDYelpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E951EC000B1004C1F6B /* CDYelpError.swift */; };
-		B285DA051FBD35C100FA9ABB /* CDYelpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32981FAACE8E00A9CF71 /* CDYelpEvent.swift */; };
-		B285DA061FBD35C100FA9ABB /* CDYelpEventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32A11FAACF4100A9CF71 /* CDYelpEventsResponse.swift */; };
-		B285DA071FBD35C100FA9ABB /* CDYelpHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E971EC000B1004C1F6B /* CDYelpHour.swift */; };
-		B285DA081FBD35C100FA9ABB /* CDYelpLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E981EC000B1004C1F6B /* CDYelpLocation.swift */; };
-		B285DA091FBD35C100FA9ABB /* CDYelpOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9C1EC000B1004C1F6B /* CDYelpOpen.swift */; };
-		B285DA0A1FBD35C100FA9ABB /* CDYelpRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9D1EC000B1004C1F6B /* CDYelpRegion.swift */; };
-		B285DA0B1FBD35C100FA9ABB /* CDYelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9E1EC000B1004C1F6B /* CDYelpReview.swift */; };
-		B285DA0C1FBD35C100FA9ABB /* CDYelpReviewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9F1EC000B1004C1F6B /* CDYelpReviewsResponse.swift */; };
-		B285DA0D1FBD35C100FA9ABB /* CDYelpSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA11EC000B1004C1F6B /* CDYelpSearchResponse.swift */; };
-		B285DA0E1FBD35C100FA9ABB /* CDYelpTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA21EC000B1004C1F6B /* CDYelpTerm.swift */; };
-		B285DA0F1FBD35C100FA9ABB /* CDYelpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA31EC000B1004C1F6B /* CDYelpUser.swift */; };
-		B285DA131FBD35C100FA9ABB /* CDYelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8D1EC000B1004C1F6B /* CDYelpAPIClient.swift */; };
-		B285DA141FBD35C100FA9ABB /* CDYelpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E931EC000B1004C1F6B /* CDYelpConstants.swift */; };
-		B285DA151FBD35C100FA9ABB /* CDYelpEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09D2E91F282938001877E9 /* CDYelpEnums.swift */; };
-		B285DA161FBD35C100FA9ABB /* CDYelpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA01EC000B1004C1F6B /* CDYelpRouter.swift */; };
-		B285DA3D1FBE1BB200FA9ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F854E1B1FB44D6A00335D73 /* Images.xcassets */; };
-		B285DA3E1FBE1BBA00FA9ABB /* CDYelpFusionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBF0E961EC000B1004C1F6B /* CDYelpFusionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B285DA3F1FBE1BCE00FA9ABB /* Parameters+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA51EC000B1004C1F6B /* Parameters+CDYelpFusionKit.swift */; };
-		B285DA401FBE1BCE00FA9ABB /* CDColor+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854DFD1FB44B0F00335D73 /* CDColor+CDYelpFusionKit.swift */; };
-		B285DA411FBE1BCE00FA9ABB /* CDImage+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854E061FB44B1F00335D73 /* CDImage+CDYelpFusionKit.swift */; };
-		B285DA421FBE1BCE00FA9ABB /* CDYelpAutoCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8E1EC000B1004C1F6B /* CDYelpAutoCompleteResponse.swift */; };
-		B285DA431FBE1BCE00FA9ABB /* CDYelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8F1EC000B1004C1F6B /* CDYelpBusiness.swift */; };
-		B285DA441FBE1BCE00FA9ABB /* CDYelpBusinessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E901EC000B1004C1F6B /* CDYelpBusinessResponse.swift */; };
-		B285DA451FBE1BCE00FA9ABB /* CDYelpCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E911EC000B1004C1F6B /* CDYelpCategory.swift */; };
-		B285DA461FBE1BCE00FA9ABB /* CDYelpCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E921EC000B1004C1F6B /* CDYelpCenter.swift */; };
-		B285DA471FBE1BCE00FA9ABB /* CDYelpCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E941EC000B1004C1F6B /* CDYelpCoordinates.swift */; };
-		B285DA481FBE1BCE00FA9ABB /* CDYelpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E951EC000B1004C1F6B /* CDYelpError.swift */; };
-		B285DA491FBE1BCE00FA9ABB /* CDYelpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32981FAACE8E00A9CF71 /* CDYelpEvent.swift */; };
-		B285DA4A1FBE1BCE00FA9ABB /* CDYelpEventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32A11FAACF4100A9CF71 /* CDYelpEventsResponse.swift */; };
-		B285DA4B1FBE1BCE00FA9ABB /* CDYelpHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E971EC000B1004C1F6B /* CDYelpHour.swift */; };
-		B285DA4C1FBE1BCE00FA9ABB /* CDYelpLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E981EC000B1004C1F6B /* CDYelpLocation.swift */; };
-		B285DA4D1FBE1BCE00FA9ABB /* CDYelpOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9C1EC000B1004C1F6B /* CDYelpOpen.swift */; };
-		B285DA4E1FBE1BCE00FA9ABB /* CDYelpRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9D1EC000B1004C1F6B /* CDYelpRegion.swift */; };
-		B285DA4F1FBE1BCE00FA9ABB /* CDYelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9E1EC000B1004C1F6B /* CDYelpReview.swift */; };
-		B285DA501FBE1BCE00FA9ABB /* CDYelpReviewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9F1EC000B1004C1F6B /* CDYelpReviewsResponse.swift */; };
-		B285DA511FBE1BCE00FA9ABB /* CDYelpSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA11EC000B1004C1F6B /* CDYelpSearchResponse.swift */; };
-		B285DA521FBE1BCE00FA9ABB /* CDYelpTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA21EC000B1004C1F6B /* CDYelpTerm.swift */; };
-		B285DA531FBE1BCE00FA9ABB /* CDYelpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA31EC000B1004C1F6B /* CDYelpUser.swift */; };
-		B285DA571FBE1BCE00FA9ABB /* CDYelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8D1EC000B1004C1F6B /* CDYelpAPIClient.swift */; };
-		B285DA581FBE1BCE00FA9ABB /* CDYelpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E931EC000B1004C1F6B /* CDYelpConstants.swift */; };
-		B285DA591FBE1BCE00FA9ABB /* CDYelpEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09D2E91F282938001877E9 /* CDYelpEnums.swift */; };
-		B285DA5A1FBE1BCE00FA9ABB /* CDYelpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA01EC000B1004C1F6B /* CDYelpRouter.swift */; };
 		B285DA691FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285DA681FBE217800FA9ABB /* URL+CDYelpFusionKit.swift */; };
-		B285DA6A1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285DA681FBE217800FA9ABB /* URL+CDYelpFusionKit.swift */; };
-		B285DA6B1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285DA681FBE217800FA9ABB /* URL+CDYelpFusionKit.swift */; };
-		B285DA6C1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285DA681FBE217800FA9ABB /* URL+CDYelpFusionKit.swift */; };
 		B2C4A04F1FCE323600B253A2 /* CDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A04E1FCE323600B253A2 /* CDColor.swift */; };
-		B2C4A0501FCE323600B253A2 /* CDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A04E1FCE323600B253A2 /* CDColor.swift */; };
-		B2C4A0511FCE323600B253A2 /* CDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A04E1FCE323600B253A2 /* CDColor.swift */; };
-		B2C4A0521FCE323600B253A2 /* CDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A04E1FCE323600B253A2 /* CDColor.swift */; };
 		B2C4A0541FCE33D000B253A2 /* CDImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A0531FCE33D000B253A2 /* CDImage.swift */; };
-		B2C4A0551FCE33D000B253A2 /* CDImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A0531FCE33D000B253A2 /* CDImage.swift */; };
-		B2C4A0561FCE33D000B253A2 /* CDImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A0531FCE33D000B253A2 /* CDImage.swift */; };
-		B2C4A0571FCE33D000B253A2 /* CDImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4A0531FCE33D000B253A2 /* CDImage.swift */; };
-		B2C6E1F51FBCF2A800FE8462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F854E1B1FB44D6A00335D73 /* Images.xcassets */; };
-		B2C6E1F91FBCF3A400FE8462 /* Parameters+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA51EC000B1004C1F6B /* Parameters+CDYelpFusionKit.swift */; };
-		B2C6E1FA1FBCF3A400FE8462 /* CDColor+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854DFD1FB44B0F00335D73 /* CDColor+CDYelpFusionKit.swift */; };
-		B2C6E1FB1FBCF3A400FE8462 /* CDImage+CDYelpFusionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F854E061FB44B1F00335D73 /* CDImage+CDYelpFusionKit.swift */; };
-		B2C6E1FC1FBCF3A400FE8462 /* CDYelpAutoCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8E1EC000B1004C1F6B /* CDYelpAutoCompleteResponse.swift */; };
-		B2C6E1FD1FBCF3A400FE8462 /* CDYelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8F1EC000B1004C1F6B /* CDYelpBusiness.swift */; };
-		B2C6E1FE1FBCF3A400FE8462 /* CDYelpBusinessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E901EC000B1004C1F6B /* CDYelpBusinessResponse.swift */; };
-		B2C6E1FF1FBCF3A400FE8462 /* CDYelpCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E911EC000B1004C1F6B /* CDYelpCategory.swift */; };
-		B2C6E2001FBCF3A400FE8462 /* CDYelpCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E921EC000B1004C1F6B /* CDYelpCenter.swift */; };
-		B2C6E2011FBCF3A400FE8462 /* CDYelpCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E941EC000B1004C1F6B /* CDYelpCoordinates.swift */; };
-		B2C6E2021FBCF3A400FE8462 /* CDYelpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E951EC000B1004C1F6B /* CDYelpError.swift */; };
-		B2C6E2031FBCF3A400FE8462 /* CDYelpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32981FAACE8E00A9CF71 /* CDYelpEvent.swift */; };
-		B2C6E2041FBCF3A400FE8462 /* CDYelpEventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB32A11FAACF4100A9CF71 /* CDYelpEventsResponse.swift */; };
-		B2C6E2051FBCF3A400FE8462 /* CDYelpHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E971EC000B1004C1F6B /* CDYelpHour.swift */; };
-		B2C6E2061FBCF3A400FE8462 /* CDYelpLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E981EC000B1004C1F6B /* CDYelpLocation.swift */; };
-		B2C6E2071FBCF3A400FE8462 /* CDYelpOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9C1EC000B1004C1F6B /* CDYelpOpen.swift */; };
-		B2C6E2081FBCF3A400FE8462 /* CDYelpRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9D1EC000B1004C1F6B /* CDYelpRegion.swift */; };
-		B2C6E2091FBCF3A400FE8462 /* CDYelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9E1EC000B1004C1F6B /* CDYelpReview.swift */; };
-		B2C6E20A1FBCF3A400FE8462 /* CDYelpReviewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9F1EC000B1004C1F6B /* CDYelpReviewsResponse.swift */; };
-		B2C6E20B1FBCF3A400FE8462 /* CDYelpSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA11EC000B1004C1F6B /* CDYelpSearchResponse.swift */; };
-		B2C6E20C1FBCF3A400FE8462 /* CDYelpTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA21EC000B1004C1F6B /* CDYelpTerm.swift */; };
-		B2C6E20D1FBCF3A400FE8462 /* CDYelpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA31EC000B1004C1F6B /* CDYelpUser.swift */; };
-		B2C6E2111FBCF3A400FE8462 /* CDYelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E8D1EC000B1004C1F6B /* CDYelpAPIClient.swift */; };
-		B2C6E2121FBCF3A400FE8462 /* CDYelpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E931EC000B1004C1F6B /* CDYelpConstants.swift */; };
-		B2C6E2131FBCF3A400FE8462 /* CDYelpEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09D2E91F282938001877E9 /* CDYelpEnums.swift */; };
-		B2C6E2141FBCF3A400FE8462 /* CDYelpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0EA01EC000B1004C1F6B /* CDYelpRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -204,8 +102,6 @@
 		B266344C1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CDYelpFusionKit.swift"; sourceTree = "<group>"; };
 		B267ED55233EAD3C007B902A /* CDYelpCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDYelpCategoriesResponse.swift; sourceTree = "<group>"; };
 		B267ED5A233EADAB007B902A /* CDYelpCategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDYelpCategoryResponse.swift; sourceTree = "<group>"; };
-		B285D9E81FBD34F400FA9ABB /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B285DA291FBE1AA600FA9ABB /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285DA681FBE217800FA9ABB /* URL+CDYelpFusionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+CDYelpFusionKit.swift"; sourceTree = "<group>"; };
 		B29CB00A1FBBBAE80090F336 /* CDYelpFusionKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDYelpFusionKit.podspec; sourceTree = "<group>"; };
 		B29CB00B1FBBBAE80090F336 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -215,7 +111,6 @@
 		B29CB0141FBBBAFE0090F336 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2C4A04E1FCE323600B253A2 /* CDColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDColor.swift; sourceTree = "<group>"; };
 		B2C4A0531FCE33D000B253A2 /* CDImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDImage.swift; sourceTree = "<group>"; };
-		B2C6E1E61FBCF25A00FE8462 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,27 +120,6 @@
 			files = (
 				0281F0702677325600A8D0B5 /* ObjectMapper.framework in Frameworks */,
 				0281F06C2677321100A8D0B5 /* Alamofire.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285D9E41FBD34F400FA9ABB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285DA251FBE1AA600FA9ABB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C6E1E21FBCF25A00FE8462 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				5FBF0E671EBFFEB0004C1F6B /* CDYelpFusionKit.framework */,
-				B2C6E1E61FBCF25A00FE8462 /* CDYelpFusionKit.framework */,
-				B285D9E81FBD34F400FA9ABB /* CDYelpFusionKit.framework */,
-				B285DA291FBE1AA600FA9ABB /* CDYelpFusionKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -408,30 +279,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B285D9E51FBD34F400FA9ABB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B285D9F91FBD357800FA9ABB /* CDYelpFusionKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285DA261FBE1AA600FA9ABB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B285DA3E1FBE1BBA00FA9ABB /* CDYelpFusionKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C6E1E31FBCF25A00FE8462 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B285D9FA1FBD359400FA9ABB /* CDYelpFusionKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -455,63 +302,6 @@
 			productReference = 5FBF0E671EBFFEB0004C1F6B /* CDYelpFusionKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B285D9E71FBD34F400FA9ABB /* CDYelpFusionKit macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B285D9F61FBD34F400FA9ABB /* Build configuration list for PBXNativeTarget "CDYelpFusionKit macOS" */;
-			buildPhases = (
-				B285D9E31FBD34F400FA9ABB /* Sources */,
-				B285D9E41FBD34F400FA9ABB /* Frameworks */,
-				B285D9E51FBD34F400FA9ABB /* Headers */,
-				B285D9E61FBD34F400FA9ABB /* Resources */,
-				B25523C2218D0346007CDD7A /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CDYelpFusionKit macOS";
-			productName = CDYelpFusionKit;
-			productReference = B285D9E81FBD34F400FA9ABB /* CDYelpFusionKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B285DA281FBE1AA600FA9ABB /* CDYelpFusionKit tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B285DA371FBE1AA600FA9ABB /* Build configuration list for PBXNativeTarget "CDYelpFusionKit tvOS" */;
-			buildPhases = (
-				B285DA241FBE1AA600FA9ABB /* Sources */,
-				B285DA251FBE1AA600FA9ABB /* Frameworks */,
-				B285DA261FBE1AA600FA9ABB /* Headers */,
-				B285DA271FBE1AA600FA9ABB /* Resources */,
-				B25523C3218D0352007CDD7A /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CDYelpFusionKit tvOS";
-			productName = CDYelpFusionKit;
-			productReference = B285DA291FBE1AA600FA9ABB /* CDYelpFusionKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B2C6E1E51FBCF25A00FE8462 /* CDYelpFusionKit watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2C6E1F41FBCF25B00FE8462 /* Build configuration list for PBXNativeTarget "CDYelpFusionKit watchOS" */;
-			buildPhases = (
-				B2C6E1E11FBCF25A00FE8462 /* Sources */,
-				B2C6E1E21FBCF25A00FE8462 /* Frameworks */,
-				B2C6E1E31FBCF25A00FE8462 /* Headers */,
-				B2C6E1E41FBCF25A00FE8462 /* Resources */,
-				B25523C4218D0361007CDD7A /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CDYelpFusionKit watchOS";
-			productName = CDYelpFusionKit;
-			productReference = B2C6E1E61FBCF25A00FE8462 /* CDYelpFusionKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -523,21 +313,6 @@
 				TargetAttributes = {
 					5FBF0E661EBFFEB0004C1F6B = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
-					};
-					B285D9E71FBD34F400FA9ABB = {
-						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
-					};
-					B285DA281FBE1AA600FA9ABB = {
-						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
-					};
-					B2C6E1E51FBCF25A00FE8462 = {
-						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -557,9 +332,6 @@
 			projectRoot = "";
 			targets = (
 				5FBF0E661EBFFEB0004C1F6B /* CDYelpFusionKit iOS */,
-				B285D9E71FBD34F400FA9ABB /* CDYelpFusionKit macOS */,
-				B285DA281FBE1AA600FA9ABB /* CDYelpFusionKit tvOS */,
-				B2C6E1E51FBCF25A00FE8462 /* CDYelpFusionKit watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -573,88 +345,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B285D9E61FBD34F400FA9ABB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B285D9F81FBD356E00FA9ABB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285DA271FBE1AA600FA9ABB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B285DA3D1FBE1BB200FA9ABB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C6E1E41FBCF25A00FE8462 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C6E1F51FBCF2A800FE8462 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		B25523C1218D0335007CDD7A /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint lint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		B25523C2218D0346007CDD7A /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint lint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		B25523C3218D0352007CDD7A /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint lint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		B25523C4218D0361007CDD7A /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -711,123 +405,6 @@
 				5FBF0EBE1EC000B1004C1F6B /* Parameters+CDYelpFusionKit.swift in Sources */,
 				B266344D1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */,
 				B285DA691FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285D9E31FBD34F400FA9ABB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C4A0501FCE323600B253A2 /* CDColor.swift in Sources */,
-				B285D9FC1FBD35C100FA9ABB /* CDColor+CDYelpFusionKit.swift in Sources */,
-				B2C4A0551FCE33D000B253A2 /* CDImage.swift in Sources */,
-				B285D9FD1FBD35C100FA9ABB /* CDImage+CDYelpFusionKit.swift in Sources */,
-				B285DA131FBD35C100FA9ABB /* CDYelpAPIClient.swift in Sources */,
-				B285D9FE1FBD35C100FA9ABB /* CDYelpAutoCompleteResponse.swift in Sources */,
-				B285D9FF1FBD35C100FA9ABB /* CDYelpBusiness.swift in Sources */,
-				B285DA001FBD35C100FA9ABB /* CDYelpBusinessResponse.swift in Sources */,
-				B267ED57233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */,
-				B285DA011FBD35C100FA9ABB /* CDYelpCategory.swift in Sources */,
-				B267ED5C233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */,
-				B285DA021FBD35C100FA9ABB /* CDYelpCenter.swift in Sources */,
-				B285DA141FBD35C100FA9ABB /* CDYelpConstants.swift in Sources */,
-				B285DA031FBD35C100FA9ABB /* CDYelpCoordinates.swift in Sources */,
-				5F6BC9D624FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */,
-				B285DA151FBD35C100FA9ABB /* CDYelpEnums.swift in Sources */,
-				B285DA041FBD35C100FA9ABB /* CDYelpError.swift in Sources */,
-				B285DA051FBD35C100FA9ABB /* CDYelpEvent.swift in Sources */,
-				B285DA061FBD35C100FA9ABB /* CDYelpEventsResponse.swift in Sources */,
-				B285DA071FBD35C100FA9ABB /* CDYelpHour.swift in Sources */,
-				B285DA081FBD35C100FA9ABB /* CDYelpLocation.swift in Sources */,
-				B285DA091FBD35C100FA9ABB /* CDYelpOpen.swift in Sources */,
-				B285DA0A1FBD35C100FA9ABB /* CDYelpRegion.swift in Sources */,
-				B285DA0B1FBD35C100FA9ABB /* CDYelpReview.swift in Sources */,
-				B285DA0C1FBD35C100FA9ABB /* CDYelpReviewsResponse.swift in Sources */,
-				B285DA161FBD35C100FA9ABB /* CDYelpRouter.swift in Sources */,
-				B285DA0D1FBD35C100FA9ABB /* CDYelpSearchResponse.swift in Sources */,
-				B285DA0E1FBD35C100FA9ABB /* CDYelpTerm.swift in Sources */,
-				B285DA0F1FBD35C100FA9ABB /* CDYelpUser.swift in Sources */,
-				B285D9FB1FBD35C100FA9ABB /* Parameters+CDYelpFusionKit.swift in Sources */,
-				B266344E1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */,
-				B285DA6A1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B285DA241FBE1AA600FA9ABB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C4A0511FCE323600B253A2 /* CDColor.swift in Sources */,
-				B285DA401FBE1BCE00FA9ABB /* CDColor+CDYelpFusionKit.swift in Sources */,
-				B2C4A0561FCE33D000B253A2 /* CDImage.swift in Sources */,
-				B285DA411FBE1BCE00FA9ABB /* CDImage+CDYelpFusionKit.swift in Sources */,
-				B285DA571FBE1BCE00FA9ABB /* CDYelpAPIClient.swift in Sources */,
-				B285DA421FBE1BCE00FA9ABB /* CDYelpAutoCompleteResponse.swift in Sources */,
-				B285DA431FBE1BCE00FA9ABB /* CDYelpBusiness.swift in Sources */,
-				B285DA441FBE1BCE00FA9ABB /* CDYelpBusinessResponse.swift in Sources */,
-				B267ED58233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */,
-				B285DA451FBE1BCE00FA9ABB /* CDYelpCategory.swift in Sources */,
-				B267ED5D233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */,
-				B285DA461FBE1BCE00FA9ABB /* CDYelpCenter.swift in Sources */,
-				B285DA581FBE1BCE00FA9ABB /* CDYelpConstants.swift in Sources */,
-				B285DA471FBE1BCE00FA9ABB /* CDYelpCoordinates.swift in Sources */,
-				5F6BC9D724FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */,
-				B285DA591FBE1BCE00FA9ABB /* CDYelpEnums.swift in Sources */,
-				B285DA481FBE1BCE00FA9ABB /* CDYelpError.swift in Sources */,
-				B285DA491FBE1BCE00FA9ABB /* CDYelpEvent.swift in Sources */,
-				B285DA4A1FBE1BCE00FA9ABB /* CDYelpEventsResponse.swift in Sources */,
-				B285DA4B1FBE1BCE00FA9ABB /* CDYelpHour.swift in Sources */,
-				B285DA4C1FBE1BCE00FA9ABB /* CDYelpLocation.swift in Sources */,
-				B285DA4D1FBE1BCE00FA9ABB /* CDYelpOpen.swift in Sources */,
-				B285DA4E1FBE1BCE00FA9ABB /* CDYelpRegion.swift in Sources */,
-				B285DA4F1FBE1BCE00FA9ABB /* CDYelpReview.swift in Sources */,
-				B285DA501FBE1BCE00FA9ABB /* CDYelpReviewsResponse.swift in Sources */,
-				B285DA5A1FBE1BCE00FA9ABB /* CDYelpRouter.swift in Sources */,
-				B285DA511FBE1BCE00FA9ABB /* CDYelpSearchResponse.swift in Sources */,
-				B285DA521FBE1BCE00FA9ABB /* CDYelpTerm.swift in Sources */,
-				B285DA531FBE1BCE00FA9ABB /* CDYelpUser.swift in Sources */,
-				B285DA3F1FBE1BCE00FA9ABB /* Parameters+CDYelpFusionKit.swift in Sources */,
-				B266344F1FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */,
-				B285DA6B1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C6E1E11FBCF25A00FE8462 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C4A0521FCE323600B253A2 /* CDColor.swift in Sources */,
-				B2C6E1FA1FBCF3A400FE8462 /* CDColor+CDYelpFusionKit.swift in Sources */,
-				B2C4A0571FCE33D000B253A2 /* CDImage.swift in Sources */,
-				B2C6E1FB1FBCF3A400FE8462 /* CDImage+CDYelpFusionKit.swift in Sources */,
-				B2C6E2111FBCF3A400FE8462 /* CDYelpAPIClient.swift in Sources */,
-				B2C6E1FC1FBCF3A400FE8462 /* CDYelpAutoCompleteResponse.swift in Sources */,
-				B2C6E1FD1FBCF3A400FE8462 /* CDYelpBusiness.swift in Sources */,
-				B2C6E1FE1FBCF3A400FE8462 /* CDYelpBusinessResponse.swift in Sources */,
-				B267ED59233EAD3C007B902A /* CDYelpCategoriesResponse.swift in Sources */,
-				B2C6E1FF1FBCF3A400FE8462 /* CDYelpCategory.swift in Sources */,
-				B267ED5E233EADAB007B902A /* CDYelpCategoryResponse.swift in Sources */,
-				B2C6E2001FBCF3A400FE8462 /* CDYelpCenter.swift in Sources */,
-				B2C6E2121FBCF3A400FE8462 /* CDYelpConstants.swift in Sources */,
-				B2C6E2011FBCF3A400FE8462 /* CDYelpCoordinates.swift in Sources */,
-				5F6BC9D824FBF71100EC41A7 /* Alamofire+ObjectMapper.swift in Sources */,
-				B2C6E2131FBCF3A400FE8462 /* CDYelpEnums.swift in Sources */,
-				B2C6E2021FBCF3A400FE8462 /* CDYelpError.swift in Sources */,
-				B2C6E2031FBCF3A400FE8462 /* CDYelpEvent.swift in Sources */,
-				B2C6E2041FBCF3A400FE8462 /* CDYelpEventsResponse.swift in Sources */,
-				B2C6E2051FBCF3A400FE8462 /* CDYelpHour.swift in Sources */,
-				B2C6E2061FBCF3A400FE8462 /* CDYelpLocation.swift in Sources */,
-				B2C6E2071FBCF3A400FE8462 /* CDYelpOpen.swift in Sources */,
-				B2C6E2081FBCF3A400FE8462 /* CDYelpRegion.swift in Sources */,
-				B2C6E2091FBCF3A400FE8462 /* CDYelpReview.swift in Sources */,
-				B2C6E20A1FBCF3A400FE8462 /* CDYelpReviewsResponse.swift in Sources */,
-				B2C6E2141FBCF3A400FE8462 /* CDYelpRouter.swift in Sources */,
-				B2C6E20B1FBCF3A400FE8462 /* CDYelpSearchResponse.swift in Sources */,
-				B2C6E20C1FBCF3A400FE8462 /* CDYelpTerm.swift in Sources */,
-				B2C6E20D1FBCF3A400FE8462 /* CDYelpUser.swift in Sources */,
-				B2C6E1F91FBCF3A400FE8462 /* Parameters+CDYelpFusionKit.swift in Sources */,
-				B26634501FBEA1B8003B09CE /* String+CDYelpFusionKit.swift in Sources */,
-				B285DA6C1FBE217800FA9ABB /* URL+CDYelpFusionKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,94 +577,6 @@
 			};
 			name = Release;
 		};
-		B285D9ED1FBD34F400FA9ABB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B285D9EE1FBD34F400FA9ABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B285DA2E1FBE1AA600FA9ABB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B285DA2F1FBE1AA600FA9ABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B2C6E1EB1FBCF25B00FE8462 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.christopherdehaan.CDYelpFusionKit;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B2C6E1EC1FBCF25B00FE8462 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.christopherdehaan.CDYelpFusionKit;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1105,33 +594,6 @@
 			buildConfigurations = (
 				5FBF0E701EBFFEB0004C1F6B /* Debug */,
 				5FBF0E711EBFFEB0004C1F6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B285D9F61FBD34F400FA9ABB /* Build configuration list for PBXNativeTarget "CDYelpFusionKit macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B285D9ED1FBD34F400FA9ABB /* Debug */,
-				B285D9EE1FBD34F400FA9ABB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B285DA371FBE1AA600FA9ABB /* Build configuration list for PBXNativeTarget "CDYelpFusionKit tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B285DA2E1FBE1AA600FA9ABB /* Debug */,
-				B285DA2F1FBE1AA600FA9ABB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2C6E1F41FBCF25B00FE8462 /* Build configuration list for PBXNativeTarget "CDYelpFusionKit watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2C6E1EB1FBCF25B00FE8462 /* Debug */,
-				B2C6E1EC1FBCF25B00FE8462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

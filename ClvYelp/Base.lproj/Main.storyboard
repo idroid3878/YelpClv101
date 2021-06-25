@@ -241,7 +241,37 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cig-Ou-LxK" userLabel="configv2">
                                 <rect key="frame" x="10" y="354" width="394" height="444"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIY-hT-lNh" userLabel="currentloc">
+                                        <rect key="frame" x="10" y="10" width="374" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mej-f9-Kub">
+                                                <rect key="frame" x="10" y="10" width="146" height="30"/>
+                                                <state key="normal" title="Use Current Location"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Mej-f9-Kub" firstAttribute="leading" secondItem="VIY-hT-lNh" secondAttribute="leading" constant="10" id="5Bk-bd-FOT"/>
+                                            <constraint firstItem="Mej-f9-Kub" firstAttribute="top" secondItem="VIY-hT-lNh" secondAttribute="top" constant="10" id="5Ys-k4-Gog"/>
+                                            <constraint firstItem="Mej-f9-Kub" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="VIY-hT-lNh" secondAttribute="trailing" constant="20" symbolic="YES" id="ZVU-ig-5PL"/>
+                                            <constraint firstItem="Mej-f9-Kub" firstAttribute="bottom" secondItem="VIY-hT-lNh" secondAttribute="bottom" constant="-20" id="dNK-Oe-8jj"/>
+                                        </constraints>
+                                    </view>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JVY-ZA-o63" userLabel="mapview">
+                                        <rect key="frame" x="10" y="80" width="374" height="354"/>
+                                    </mapView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JVY-ZA-o63" firstAttribute="top" secondItem="VIY-hT-lNh" secondAttribute="bottom" constant="10" id="HOU-Dg-DaT"/>
+                                    <constraint firstItem="VIY-hT-lNh" firstAttribute="leading" secondItem="cig-Ou-LxK" secondAttribute="leading" constant="10" id="PY8-Vq-PkB"/>
+                                    <constraint firstItem="JVY-ZA-o63" firstAttribute="leading" secondItem="cig-Ou-LxK" secondAttribute="leading" constant="10" id="aGY-Tl-xaG"/>
+                                    <constraint firstItem="VIY-hT-lNh" firstAttribute="trailing" secondItem="cig-Ou-LxK" secondAttribute="trailing" constant="-10" id="c0X-4h-5CM"/>
+                                    <constraint firstItem="VIY-hT-lNh" firstAttribute="top" secondItem="cig-Ou-LxK" secondAttribute="top" constant="10" id="jbv-9U-fTL"/>
+                                    <constraint firstItem="JVY-ZA-o63" firstAttribute="trailing" secondItem="cig-Ou-LxK" secondAttribute="trailing" constant="-10" id="kZL-Ef-GYT"/>
+                                    <constraint firstItem="JVY-ZA-o63" firstAttribute="bottom" secondItem="cig-Ou-LxK" secondAttribute="bottom" constant="-10" id="lQC-ou-yG9"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -264,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ycu-5G-bL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1184" y="-366"/>
+            <point key="canvasLocation" x="1182.608695652174" y="-366.29464285714283"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="6f5-Kv-a2e">
